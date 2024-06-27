@@ -47,11 +47,11 @@ public class manager : MonoBehaviour
 
         i = Random.Range(0, objects.Length);
         Instantiate(objects[i], spawn2.position, Quaternion.identity);
-        texto3.text =  Random.Range(1,10).ToString()+"$";
+        texto3.text =  Random.Range(1,30).ToString()+"$";
 
         i = Random.Range(0, objects.Length);
         Instantiate(objects[i], spawn3.position, Quaternion.identity);
-        texto2.text = Random.Range(1, 10).ToString()+"$";
+        texto2.text = Random.Range(1, 30).ToString()+"$";
 
     }
     public void responder()
